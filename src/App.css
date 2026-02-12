@@ -1,0 +1,42 @@
+body {
+  max-height: 100vh;
+  background-color: #f7f6fb;
+  overflow-y: scroll; /* اسکرول فعال بمونه */
+  scrollbar-width: none; /* فایرفاکس */
+  -ms-overflow-style: none; /* IE و Edge قدیمی */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* کروم و سافاری */
+}
+
+.custom-expandable-row {
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.table-row-light {
+  background-color: #eef4fc !important;
+}
+
+.table-row-dark {
+  background-color: #ffff;
+}
+.date-picker-style {
+  height: 31px;
+  border-radius: 6px;
+}
+.date-picker-style:focus {
+  border-color: #1677ff;
+  box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+  outline: 0;
+  background-color: #ffffff;
+}
+.editable-row .editable-cell-value-wrap {
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  padding: 4px 11px;
+}
+.ant-dropdown.css-dev-only-do-not-override-1m2bkf9.ant-dropdown-show-arrow {
+  top: 0.5rem !important;
+}
