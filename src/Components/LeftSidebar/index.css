@@ -1,0 +1,85 @@
+.flow-steps .step {
+  font-weight: bold;
+  font-size: 12px;
+  width: 65px;
+  background-repeat: no-repeat;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.flow-steps .step.active {
+  color: #212529;
+  font-size: 12px;
+}
+
+.first-step {
+  background-image: url('../../assets/Stages/gray-start.svg');
+  padding-bottom: 7px;
+  font-size: 12px;
+}
+.first-step-active {
+  background-image: url('../../assets/Stages/blue-start.svg');
+  height: 70px;
+  font-size: 12px;
+}
+.first-step-reject {
+  background-image: url('../../assets/Stages/red-start.svg');
+  height: 70px;
+  font-size: 12px;
+}
+.first-step-waite {
+  background-image: url('../../assets/Stages/yelllow-start.svg');
+  height: 70px;
+  font-size: 12px;
+}
+.middle-step {
+  background-image: url('../../assets/Stages/gray-middle.svg');
+  height: 78px;
+  font-size: 12px;
+}
+.middle-step-active {
+  background-image: url('../../assets/Stages/blue-middle.svg');
+  height: 78px;
+  font-size: 12px;
+}
+.middle-step-reject {
+  background-image: url('../../assets/Stages/red-middle.svg');
+  height: 78px;
+  font-size: 12px;
+}
+.middle-step-waite {
+  background-image: url('../../assets/Stages/yellow-middle.svg');
+  height: 78px;
+  font-size: 12px;
+}
+.last-step {
+  background-image: url('../../assets/Stages/gray-end.svg');
+  padding-top: 7px;
+  font-size: 12px;
+}
+.last-step-active {
+  background-image: url('../../assets/Stages/blue-end.svg');
+  height: 78px;
+  font-size: 12px;
+}
+.last-step-reject {
+  background-image: url('../../assets/Stages/red-end.svg');
+  height: 78px;
+  font-size: 12px;
+}
+.last-step-waite {
+  background-image: url('../../assets/Stages/yellow-end.svg');
+  height: 78px;
+  font-size: 12px;
+}
+.first-step {
+  height: 70px;
+}
+.last-step {
+  height: 75px;
+}
